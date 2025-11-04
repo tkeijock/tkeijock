@@ -9,6 +9,3 @@ def test_read_root():
     assert response.status_code == 200
     assert response.json() == {"Hello": "World"}
 
-
-
-
