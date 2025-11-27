@@ -1,35 +1,73 @@
-## Welcome to My Learning Journey with Container, CI/CD
+# 👋 Welcome to My Learning Journey in Container, Kubernetes, CI/CD and DevOps 
 
-This space documents my continuous progression in mastering Docker, container best practices, and CI/CD automation using GitHub Actions.
-Each repository represents a step forward in learning how to design, improve, and automate container-based workflows.
+A DevOps enthusiast focused on Containers, CI/CD automation, and improving software delivery pipelines.  
+I use this space to demonstrate my progression through real, hands-on projects — each repository represents a milestone in my learning journey.
+
+---
+
+## 🧩 Core Focus Areas
+
+- Containerization & image optimization
+- GitHub Actions automation and workflow design
+- Reusable build pipelines and shared DevOps components
+- Best practices for scalable CI/CD
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions Badge](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
+![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![YAML Badge](https://img.shields.io/badge/YAML-000?logo=yaml&logoColor=white)
+![Bash Badge](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
+
+---
+
+## 📌 Featured Repositories (My Learning Path)
+
+### 🐳 1. Dockerfile Best Practices  
+🔗 https://github.com/tkeijock/dockerfile-best-practices  
+Focus on image Layer optimization, Reducing image size and Production-ready build patterns.
+
+---
+
+### ⚙️ 2. Pipeline for Docker Build & Push  
+🔗 https://github.com/tkeijock/pipeline-docker  
+
+The goal was to have a online and automate method to build container images and put on container registry.
+
+GitHub Actions CI/CD pipeline that: 
+- Builds Docker file into Docker images
+- Tags automatically
+- Pushes to registrie (Docker Hub)
+- Caches layers for faster builds
+
+---
+
+### 🔁 3. Reusable Docker Build Action (WIP)  
+Transforming the previous pipeline logic into a plug-and-play GitHub Action.  
+Goal: share build/push logic across multiple repos without duplication.
+
+**Planned capabilities**
+- Input a Dockerfile + repo name + tag  
+- Build, tag, and push automatically  
+- Improve maintainability at scale
+
+---
+
+## 🎯 What's Next
+
+- Kubernetes integration experiments  
+- Multi-stage workflows for production pipelines  
+- Fully automated DevOps toolkit
+
+---
+
+## 🔗 Connect with Me
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/timonkeijock)
+https://linkedin.com/in/timonkeijock
 
 
-### 📁 1. Dockerfile Best Practices :  
 
-https://github.com/tkeijock/dockerfile-best-practices
-
-This repository focuses on writing Docker files that are efficient, secure, and maintainable.
-
-Here, I explored:  Layer optimization , Caching strategies , Reducing image size and attack surface , Production-ready build patterns
-This was the foundation for understanding how containers should be built correctly.
-
-### 📁 2. Pipeline for Docker Image Build & Push
-
- https://github.com/tkeijock/pipeline-docker
- 
-This repository introduces a GitHub Actions workflow that: Builds Docker images directly from a Docker file inside its own repository.
-Tags them automatically , Pushes them to Docker Hub , Implements build-layer caching for faster builds
-The goal was to automate and have a online method to build images and put on a container registry.
-
-### 📁 3. Reusable Docker Build Action (WIP)
-(in progress — upcoming repository)
-
-The next step is to transform the previous pipeline-docker into a reusable GitHub Action.
-This allows multiple projects to share the same build/push logic without duplicating workflows.
-
-This step generalizes the CI/CD logic, turning it into a plug-and-play action for any project that needs Docker builds.
-
-Planned features:
-Accept inputs such as  Docker file , docker hub repo name and final image name.
-Build and push container images using a centralized pipeline
-Improve maintainability across multiple repositories
