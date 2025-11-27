@@ -33,7 +33,7 @@ Focus on image Layer optimization, Reducing image size and Production-ready buil
 ---
 
 ### ⚙️ 2. Pipeline for Docker Build & Push  
-🔗 https://github.com/tkeijock/pipeline-docker  
+🔗 https://github.com/tkeijock/docker-build-ci  
 
 The goal was to have a online and automate method to build container images and put on container registry.
 
