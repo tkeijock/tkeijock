@@ -46,6 +46,7 @@ GitHub Actions CI/CD pipeline that:
 ---
 
 ### 🔁 3.Kubernetes & AWS EKS Showcase  
+🔗 https://github.com/tkeijock/k8s-eks-showcase 
 Hands-on project exploring Kubernetes on AWS EKS. Focused on learning cluster setup, deployments, networking, and scaling in a cloud environment.
 
 Key highlights:
