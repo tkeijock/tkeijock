@@ -45,22 +45,14 @@ GitHub Actions CI/CD pipeline that:
 
 ---
 
-### 🔁 3. Reusable Docker Build Action (WIP)  
-Transforming the previous pipeline logic into a plug-and-play GitHub Action.  
-Goal: share build/push logic across multiple repos without duplication.
+### 🔁 3.Kubernetes & AWS EKS Showcase  
+Hands-on project exploring Kubernetes on AWS EKS. Focused on learning cluster setup, deployments, networking, and scaling in a cloud environment.
 
-**Planned capabilities**
-- Input a Dockerfile + repo name + tag  
-- Build, tag, and push automatically  
-- Improve maintainability at scale
+Key highlights:
 
----
-
-## 🎯 What's Next
-
-- Kubernetes integration experiments  
-- Multi-stage workflows for production pipelines  
-- Fully automated DevOps toolkit
+- Local Minikube on EC2 for development-to-production workflow
+- Multi-component demo app: Frontend + Redis Leader + Redis Follower
+- EKS cluster creation, deployment, services, and internal networking
 
 ---
 
